@@ -302,8 +302,6 @@ properties:
   routing_api.enabled:
     default: false
     description: "whether routing api enabled or not"
-  routing_api.url:
-    description:
 
   uaa.jwt.verification_key:
     default: ""

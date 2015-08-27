@@ -302,8 +302,6 @@ properties:
   routing_api.enabled:
     default: false
     description: "whether routing api enabled or not"
-  routing_api.url:
-    description:
 
   uaa.jwt.verification_key:
     default: ""
@@ -452,4 +450,3 @@ properties:
   cc.instance_file_descriptor_limit:
     description: "The file descriptors made available to each app instance"
     default: 16384
-
