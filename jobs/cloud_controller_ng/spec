@@ -334,6 +334,12 @@ properties:
   hm9000.url:
     description:
 
+  routing_api.enabled:
+    default: false
+    description: "whether routing api enabled or not"
+  routing_api.url:
+    description:
+
   uaa.jwt.verification_key:
     default: ""
     description: "ssl cert defined in the manifest by the UAA, required by the cc to communicate with UAA"
